@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    /* display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr; */
+    background-color: tomato;
+}
+
+.mando-der {
+    background-color: aqua;
+    width: 20vw;
+    height: 100vh;
+}
+
+.guion {
+    background-color: blue;
+    grid-row: 1 / 1;
+    grid-column: 1 / 5;
+    width: 20px;
+    height: 5px;
+    margin-left: 6em;
+}
+
+.stick {
+    background-color: green;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.cruz {
+    background-color: yellow;
+}
+
+.cuadrado {
+    background-color: green;
+    width: 15px;
+    height: 15px;
+    margin-top: 6em;
+    ;
+    margin-left: 7em;
+}
+
+.marco {
+    background-color: blueviolet;
+}
+
+.pantalla {
+    background-color: rgb(37, 30, 26);
+    width: 60vw;
+    height: 95vh;
+    border: 0.9em solid yellowgreen;
+    grid-row: 2 / 5;
+    grid-column: 1 / 5;
+}
+
+.mando-izq {
+    background-color: olivedrab;
+    width: 20vw;
+    height: 20vh;
+}
+
+.cruzp {
+    background-color: aqua;
+    background: red;
+    height: 100px;
+    position: relative;
+    width: 200px;
+    background: red;
+    content: "";
+    height: 20px;
+    left: -40px;
+    position: absolute;
+    top: 40px;
+    width: 100px;
+}
+
+.botones {
+    background-color: red;
+}
+
+.circulo {
+    background-color: beige;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-top: 6em;
+    grid-row: 1 / 4;
+}
