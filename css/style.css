@@ -1,95 +1,206 @@
 body {
-    background-color: black;
+    background-color: white;
+    margin: 0em;
+    padding: 0em;
+    display: flex;
 }
 
 .container {
     display: flex;
-    width: 100vw;
-    height: 100vh;
-    /* display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 2fr 2fr 1fr; */
-    background-color: tomato;
+    width: 50vw;
+    height: 45vh;
+    background-color: rgb(45, 156, 121);
+    margin-left: 15em;
+    margin-top: 8em;
+    border-radius: 75px;
 }
 
 .mando-der {
-    background-color: aqua;
-    width: 20vw;
-    height: 100vh;
+    /* background-color: aqua; */
+    width: 10vw;
+    height: 45vh;
 }
 
 .guion {
-    background-color: blue;
-    grid-row: 1 / 1;
-    grid-column: 1 / 5;
-    width: 20px;
-    height: 5px;
-    margin-left: 6em;
+    background-color: white;
+    width: 2em;
+    height: 0.5em;
+    margin-left: 7em;
+    margin-top: 1em;
 }
 
-.stick {
-    background-color: green;
+.stick1 {
+    background-color: white;
     border-radius: 100%;
     width: 50px;
     height: 50px;
+    margin-left: 2em;
+    margin-top: 1em;
+    border: 1px groove black;
+}
+
+.stick2 {
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-left: 2em;
+    border: 1px groove black;
+}
+
+.cruzp {
+    line-height: 2em;
+    justify-content: left;
+    padding: 0 0 0 0.3em;
+    color: white;
+}
+
+.cruzp:active {
+    text-shadow: none;
 }
 
 .cruz {
-    background-color: yellow;
+    background-color: white;
+    display: grid;
+    width: 10vw;
+    height: 15vh;
+    grid-template-columns: 0.1fr 0.1fr 0.1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr;
+    margin-top: 1.5em;
+    margin-left: 1em;
+}
+
+#cruz1 {
+    width: 1.5vw;
+    height: 2.5vh;
+    grid-column: 2;
+    /* border-bottom: none; */
+    background-color: white;
+}
+
+#cruz2 {
+    width: 1.5vw;
+    height: 2.5vh;
+    grid-column: 2;
+    grid-row: 3;
+    /* border-top: none; */
+    background-color: white;
+}
+
+#cruz3 {
+    width: 2vw;
+    height: 2.5vh;
+    grid-column: 3;
+    grid-row: 2;
+    /* border-left: none; */
+    background-color: white;
+}
+
+#cruz4 {
+    width: 2vw;
+    height: 2vh;
+    grid-column: 1;
+    grid-row: 2;
+    border-right: none;
+    background-color: white;
+}
+
+#cruz5 {
+    width: 1.5vw;
+    height: 3.5vh;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: white;
 }
 
 .cuadrado {
-    background-color: green;
-    width: 15px;
-    height: 15px;
-    margin-top: 6em;
-    ;
+    background-color: white;
+    color: white;
+    width: 20px;
+    height: 20px;
+    margin-top: 1em;
     margin-left: 7em;
 }
 
-.marco {
-    background-color: blueviolet;
-}
-
 .pantalla {
-    background-color: rgb(37, 30, 26);
-    width: 60vw;
-    height: 95vh;
-    border: 0.9em solid yellowgreen;
+    /* background-color: rgb(37, 30, 26); */
+    background-image: url(/retovideoconsola/img/fondo.jpg);
+    width: 30vw;
+    height: 40vh;
+    border: 0.9em groove rgb(45, 156, 121);
     grid-row: 2 / 5;
     grid-column: 1 / 5;
 }
 
 .mando-izq {
-    background-color: olivedrab;
-    width: 20vw;
-    height: 20vh;
+    /* background-color: olivedrab; */
+    width: 10vw;
+    height: 45vh;
 }
 
-.cruzp {
-    background-color: aqua;
-    background: red;
-    height: 100px;
-    position: relative;
-    width: 200px;
-    background: red;
-    content: "";
-    height: 20px;
-    left: -40px;
-    position: absolute;
-    top: 40px;
-    width: 100px;
+
+/* .cruz-p {
+    background-color: white;
+    width: 1em;
+    height: 0.5em;
 }
+.cruz-p2 {
+    background-color: white;
+    width: 0.1em;
+    height: 0.5em;
+} */
 
 .botones {
-    background-color: red;
+    /* background-color: red; */
+    display: grid;
+    width: 10vw;
+    height: 15vh;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr;
+    margin-top: 0.2em;
+}
+
+.circulo1 {
+    background-color: beige;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.circulo2 {
+    background-color: beige;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.circulo3 {
+    background-color: beige;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.circulo4 {
+    background-color: beige;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    grid-column: 2;
+    grid-row: 3;
 }
 
 .circulo {
-    background-color: beige;
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    margin-top: 6em;
-    grid-row: 1 / 4;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    color: white;
+    margin-top: 1.5em;
 }
