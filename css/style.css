@@ -33,10 +33,10 @@ body {
 .stick1 {
     background-image: linear-gradient(whitesmoke, rgb(199, 198, 198));
     border-radius: 100%;
-    width: 50px;
-    height: 50px;
-    margin-left: 2em;
-    margin-top: 1em;
+    width: 60px;
+    height: 60px;
+    margin-left: 3em;
+    margin-top: 2em;
     border: 1px groove black;
     box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
     outline: 1px solid black;
@@ -46,10 +46,10 @@ body {
 .stick2 {
     background-image: linear-gradient(whitesmoke, rgb(199, 198, 198));
     border-radius: 100%;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     margin-left: 2em;
-    margin-top: 1em;
+    margin-top: -1em;
     border: 1px groove black;
     box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
     outline: 1px solid black;
@@ -107,8 +107,8 @@ body {
     color: whitesmoke;
     width: 20px;
     height: 20px;
-    margin-top: 2em;
-    margin-left: 7em;
+    margin-top: 3.5em;
+    margin-left: 8.5em;
     box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
 }
 
@@ -125,17 +125,18 @@ body {
 
 .botones {
     display: grid;
-    width: 10vw;
-    height: 15vh;
-    grid-template-columns: 0.2fr 0.2fr 0.2fr;
-    grid-template-rows: 0.2fr 0.2fr 0.2fr;
-    margin-top: 0.3em;
+    width: 15vw;
+    height: 20vh;
+    grid-template-columns: 0.15fr 0.15fr 0.3fr;
+    grid-template-rows: 0.15fr 0.15fr 0.25fr;
+    margin-top: 2em;
+    margin-left: 1em;
 }
 
 .circulo1 {
     background-image: linear-gradient(whitesmoke, rgb(199, 198, 198));
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     border-radius: 100%;
     grid-column: 2;
     grid-row: 1;
@@ -144,8 +145,8 @@ body {
 
 .circulo2 {
     background-image: linear-gradient(whitesmoke, rgb(199, 198, 198));
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     border-radius: 100%;
     grid-column: 1;
     grid-row: 2;
@@ -154,8 +155,8 @@ body {
 
 .circulo3 {
     background-image: linear-gradient(whitesmoke, rgb(199, 198, 198));
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     border-radius: 100%;
     grid-column: 3;
     grid-row: 2;
@@ -164,8 +165,8 @@ body {
 
 .circulo4 {
     background-image: linear-gradient(whitesmoke, rgb(199, 198, 198));
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     border-radius: 100%;
     grid-column: 2;
     grid-row: 3;
@@ -178,7 +179,7 @@ body {
     height: 20px;
     border-radius: 100px;
     color: whitesmoke;
-    margin-top: 2.9em;
+    margin-top: 3.2em;
     box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
 }
 
