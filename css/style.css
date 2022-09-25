@@ -17,22 +17,20 @@ body {
 }
 
 .mando-der {
-    /* background-color: aqua; */
     width: 10vw;
     height: 45vh;
 }
 
 .guion {
-    /* background-color: white; */
     background-image: linear-gradient(whitesmoke, rgb(199, 198, 198));
     width: 2em;
     height: 0.5em;
     margin-left: 7em;
     margin-top: 1em;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.75);
 }
 
 .stick1 {
-    /* background-color: white; */
     background-image: linear-gradient(whitesmoke, rgb(199, 198, 198));
     border-radius: 100%;
     width: 50px;
@@ -41,17 +39,21 @@ body {
     margin-top: 1em;
     border: 1px groove black;
     box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+    outline: 1px solid black;
+    outline-offset: -5px;
 }
 
 .stick2 {
-    /* background-color: white; */
     background-image: linear-gradient(whitesmoke, rgb(199, 198, 198));
     border-radius: 100%;
     width: 50px;
     height: 50px;
     margin-left: 2em;
+    margin-top: 1em;
     border: 1px groove black;
     box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+    outline: 1px solid black;
+    outline-offset: -5px;
 }
 
 .cruz {
@@ -69,7 +71,7 @@ body {
     grid-column: 2 / 3;
     grid-row: 1 / 4;
     background-color: whitesmoke;
-    box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 6px 6px 5px 2px rgba(0, 0, 0, 0.75);
 }
 
 #cruz2 {
@@ -91,7 +93,7 @@ body {
     grid-row: 2;
     border-right: none;
     background-color: whitesmoke;
-    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.75);
 }
 
 #cruz5 {
@@ -101,21 +103,19 @@ body {
 }
 
 .cuadrado {
-    /* background-color: white; */
     background-image: linear-gradient(whitesmoke, rgb(199, 198, 198));
     color: whitesmoke;
     width: 20px;
     height: 20px;
     margin-top: 2em;
     margin-left: 7em;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
 }
 
 .pantalla {
     width: 30vw;
-    height: 40vh;
-    border: 0.8em groove rgb(45, 156, 121);
-    grid-row: 2 / 5;
-    grid-column: 1 / 5;
+    height: 35vh;
+    margin-top: 0.5em;
 }
 
 .mando-izq {
@@ -124,17 +124,15 @@ body {
 }
 
 .botones {
-    /* background-color: red; */
     display: grid;
     width: 10vw;
     height: 15vh;
     grid-template-columns: 0.2fr 0.2fr 0.2fr;
     grid-template-rows: 0.2fr 0.2fr 0.2fr;
-    margin-top: 0.2em;
+    margin-top: 0.3em;
 }
 
 .circulo1 {
-    /* background-color: white; */
     background-image: linear-gradient(whitesmoke, rgb(199, 198, 198));
     width: 25px;
     height: 25px;
@@ -145,7 +143,6 @@ body {
 }
 
 .circulo2 {
-    /* background-color: white; */
     background-image: linear-gradient(whitesmoke, rgb(199, 198, 198));
     width: 25px;
     height: 25px;
@@ -156,7 +153,6 @@ body {
 }
 
 .circulo3 {
-    /* background-color: white; */
     background-image: linear-gradient(whitesmoke, rgb(199, 198, 198));
     width: 25px;
     height: 25px;
@@ -167,7 +163,6 @@ body {
 }
 
 .circulo4 {
-    /* background-color: white; */
     background-image: linear-gradient(whitesmoke, rgb(199, 198, 198));
     width: 25px;
     height: 25px;
@@ -178,26 +173,71 @@ body {
 }
 
 .circulo {
-    /* background-color: white; */
     background-image: linear-gradient(whitesmoke, rgb(199, 198, 198));
     width: 20px;
     height: 20px;
     border-radius: 100px;
     color: whitesmoke;
-    margin-top: 1.5em;
+    margin-top: 2.9em;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
 }
 
 h2 {
     color: white;
-    text-shadow: 0px 0px 2px black;
+    text-shadow: 2px 2px 2px black;
 }
 
 img {
-    width: 30vw;
-    height: 40vh;
+    width: 28vw;
+    height: 38vh;
+    margin-left: 0.6em;
+    border: 3px solid black;
 }
 
-.circulo1. {
-    transform: translate(10px black);
-    box-shadow: 0px 6px 0px black;
+.circulo1:active {
+    box-shadow: none
+}
+
+.circulo2:active {
+    box-shadow: none
+}
+
+.circulo3:active {
+    box-shadow: none
+}
+
+.circulo4:active {
+    box-shadow: none
+}
+
+.marco {
+    border: 1px solid;
+    margin: 0.5em;
+}
+
+.cuadrado:active {
+    box-shadow: none
+}
+
+.guion:active {
+    box-shadow: none
+}
+
+.stick1:active {
+    box-shadow: none
+}
+
+.stick2:active {
+    box-shadow: none
+}
+
+.circulo:active {
+    box-shadow: none
+}
+
+.cruz-p {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 0.1em;
+    text-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
 }
