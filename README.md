@@ -1,9 +1,11 @@
 # retovideoconsola
 RETO 1
 CONSOLA PORTATIL
+
 Reproducción de una nintendo switch lite, utilizando las tecnologias HTML y CSS.
 
 FUNCIONALIDADES
+
 Los botones tienen la función active, por lo que se pueden pulsar
 
 IMAGEN
