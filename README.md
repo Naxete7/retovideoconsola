@@ -2,11 +2,10 @@
 RETO 1
 CONSOLA PORTATIL
 
-Reproducción de una nintendo switch lite, utilizando las tecnologias HTML y CSS.
+En este trabajo hemos realizado la reproducción de una nintendo switch lite, utilizando las tecnologias HTML y CSS.
 
 FUNCIONALIDADES
-
-Los botones tienen la función active, por lo que se pueden pulsar
+La mayoria de botones tienen la opción de ser pulsados, para ello hemos utilizado la función active, para que de sensación de pulsar y de más realismo a la consola.
 
 IMAGEN
 
